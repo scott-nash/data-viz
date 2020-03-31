@@ -1,672 +1,767 @@
 [
-    {
-        "code": "RISK - Unauthorized Person",
-        "title": "Fictitious Employee",
-        "description": "Unauthorized person is setup as active in payroll.",
-        "owner": "bernard@reciprocitylabs.com",
-        "status": "Under assessment",
-        "impact": 2,
-        "likelihood": 3,
-        "score": 6
-    },
-    {
-        "code": "RISK - Employee Pay Rate",
-        "title": "Employee Pay Rate is Inaccurate (SOX Payroll Process)",
-        "description": "Employee pay rate does not match authorized pay rate.",
-        "owner": "bernard@reciprocitylabs.com",
-        "status": "Transferred",
-        "impact": 2,
-        "likelihood": 5,
-        "score": 10
-    },
-    {
-        "code": "Firewall Configuration",
-        "title": "Unmaintained Firewall",
-        "description": "Incorrect and/or unmaintained firewall configurations can leave our internal network vulnerable to attack.",
-        "owner": "jhalpert@dundermifflin.com",
-        "status": "Under assessment",
-        "impact": 7,
-        "likelihood": 7,
-        "score": 49
-    },
-    {
-        "code": "Unauthorized Network Access",
-        "title": "Unauthorized Network Access",
-        "description": "Access to internal networks by unauthorized parties can result in a data breach, the introduction of malicious software, and reputational harm, among others.",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Identified",
-        "impact": 4,
-        "likelihood": 2,
-        "score": 8
-    },
-    {
-        "code": "Data Breach",
-        "title": "Data Breach",
-        "description": "Loss of organizational data, including sensitive data",
-        "owner": "jhalpert@dundermifflin.com",
-        "status": "Assessed",
-        "impact": 7,
-        "likelihood": 5,
-        "score": 35
-    },
-    {
-        "code": "Phishing Campaign",
-        "title": "Phishing Campaign",
-        "description": "Campaign by malicious entities to obtain login credentials and unauthorized network access",
-        "owner": "jhalpert@dundermifflin.com",
-        "status": "Accepted",
-        "impact": 5,
-        "likelihood": 4,
-        "score": 20
-    },
-    {
-        "code": "Natural Disaster",
-        "title": "Natural Disaster",
-        "description": "Natural disaster affecting data processing and/or business operations",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Accepting",
-        "impact": 2,
-        "likelihood": 3,
-        "score": 6
-    },
-    {
-        "code": "Datacenter Fire",
-        "title": "Datacenter Fire",
-        "description": "Fire affecting a company datacenter",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Remediate",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "Reputational Harm",
-        "title": "Reputational Harm",
-        "description": "Any harm, real or perceived, to the reputation and/or brand of the company and/or its subsidiaries",
-        "owner": "hsimpson@dundermifflin.com",
-        "status": "Closed",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "Stolen IT Assets",
-        "title": "Stolen IT Assets",
-        "description": "Theft of company IT assets",
-        "owner": "mburns@dundermifflin.com",
-        "status": "Closed",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "Backup Failures",
-        "title": "Backup Failures",
-        "description": "Failure of the backup system, resulting in no available backups during a DR event.",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 5,
-        "likelihood": 4,
-        "score": 20
-    },
-    {
-        "code": "Inadequate System Logging",
-        "title": "Inadequate System Logging",
-        "description": "System logs that do not provide sufficient information to respond to security incidents, perform root cause analysis, and/or forensic analysis",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 3,
-        "likelihood": 2,
-        "score": 6
-    },
-    {
-        "code": "Unsupported Operating Systems",
-        "title": "Unsupported Operating Systems",
-        "description": "Systems using unsupported operating systems which do not receive regular security updates",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 5,
-        "likelihood": 3,
-        "score": 15
-    },
-    {
-        "code": "Social Engineering - Physical Access",
-        "title": "Social Engineering - Physical Access",
-        "description": "Unauthorized physical access to restricted areas through the use of social engineering",
-        "owner": "jhalpert@dundermifflin.com",
-        "status": "Closed",
-        "impact": 5,
-        "likelihood": 2,
-        "score": 10
-    },
-    {
-        "code": "Disaster Recovery",
-        "title": "Disaster Recovery - Ops",
-        "description": "Current DR capabilities do not include an alternate recovery site.",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 5,
-        "likelihood": 4,
-        "score": 20
-    },
-    {
-        "code": "Loss of Leadership",
-        "title": "Loss of Leadership",
-        "description": "Loss of executive leadership team due to calamity, or loss of access to leadership team",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "Loss of Key Vendor",
-        "title": "Loss of Key Vendor",
-        "description": "Loss of a key vendor for any reason (cessation of operations, natural disaster, etc.)",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 4,
-        "likelihood": 4,
-        "score": 16
-    },
-    {
-        "code": "Unauthorized Expensify accounts created",
-        "title": "Unauthorized Expensify accounts created",
-        "description": "Unauthorized Expensify accounts created",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 3,
-        "likelihood": 2,
-        "score": 6
-    },
-    {
-        "code": "Expenses are recorded in the incorrect GL code",
-        "title": "Expenses are recorded in the incorrect GL code",
-        "description": "Expenses are recorded in the incorrect GL code",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 3,
-        "likelihood": 4,
-        "score": 12
-    },
-    {
-        "code": "Unauthorized expenses are processed",
-        "title": "Unauthorized expenses are processed",
-        "description": "Unauthorized expenses are processed",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 4,
-        "likelihood": 5,
-        "score": 20
-    },
-    {
-        "code": "Only authorized changes are made to expense data",
-        "title": "Only authorized changes are made to expense data",
-        "description": "Only authorized changes are made to expense data",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 4,
-        "likelihood": 2,
-        "score": 8
-    },
-    {
-        "code": "Expenses are incurred for an invalid business reason",
-        "title": "Expenses are incurred for an invalid business reason",
-        "description": "Expenses are incurred for an invalid business reason",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "Expenses are submitted in the correct period",
-        "title": "Expenses are submitted in the correct period",
-        "description": "Expenses are submitted in the correct period",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 4,
-        "likelihood": 4,
-        "score": 16
-    },
-    {
-        "code": "Unauthorized employee expenses are processed",
-        "title": "Unauthorized employee expenses are processed",
-        "description": "Unauthorized employee expenses are processed",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 2,
-        "likelihood": 1,
-        "score": 2
-    },
-    {
-        "code": "Expenses are recorded in Oracle in the correct period",
-        "title": "Expenses are recorded in Oracle in the correct period",
-        "description": "Expenses are recorded in Oracle in the correct period",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "Unauthorized expenses are incurred",
-        "title": "Unauthorized expenses are incurred",
-        "description": "Unauthorized expenses are incurred",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 2,
-        "likelihood": 2,
-        "score": 4
-    },
-    {
-        "code": "Reimbursement payments issued for wrong amounts",
-        "title": "Reimbursement payments issued for wrong amounts",
-        "description": "Reimbursement payments issued for wrong amounts",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 4,
-        "likelihood": 5,
-        "score": 20
-    },
-    {
-        "code": "Reimbursement payments are issued to employees without valid supporting documentation",
-        "title": "Reimbursement payments are issued to employees without valid supporting documentation",
-        "description": "Reimbursement payments are issued to employees without valid supporting documentation",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 2,
-        "likelihood": 4,
-        "score": 8
-    },
-    {
-        "code": "Unqualified Employees",
-        "title": "Unqualified Employees",
-        "description": "Hiring process doesn't filter out unqualified prospects for IT jobs",
-        "owner": "pbeesly@dundermifflin.com",
-        "status": "Closed",
-        "impact": 4,
-        "likelihood": 1,
-        "score": 4
-    },
-    {
-        "code": "RISK-30",
-        "title": "Failure to conduct a handoff meeting",
-        "description": "Failure to conduct a handoff meeting between the project manager/team and the capture manager could result in a lack of information about the client and expectations being shared, resulting in a failure to meeting client expectations and needs.",
-        "owner": "bernard@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 2,
-        "score": 6
-    },
-    {
-        "code": "RISK-31",
-        "title": "Failure to use the logs",
-        "description": "Failure to use the logs (ex. Action Item Log, Decision Item Log) can create a downstream failure as the logs are integrated and pulled into dashboard style reporting at the enterprise level. There is a risk of showing a false negative or false positive if these logs are not implemented or maintained.",
-        "owner": "bernard@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 2,
-        "score": 6
-    },
-    {
-        "code": "RISK-32",
-        "title": "Not adhering or tailoring to the predefined COMPASS standards",
-        "description": "Not adhering or tailoring to the predefined COMPASS standards in the initiation phase could result in an unsuccessful project start up and is the root cause of past project challenges (project not set up for success).",
-        "owner": "bernard@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 5,
-        "likelihood": 3,
-        "score": 15
-    },
-    {
-        "code": "RISK-33",
-        "title": "RIS-001",
-        "description": "This is a test risk..",
-        "owner": "skopacki@blackberry.com",
-        "status": "Draft",
-        "impact": 4,
-        "likelihood": 3,
-        "score": 12
-    },
-    {
-        "code": "RISK-34",
-        "title": "RIS-002",
-        "description": "This risk needs to be accepted as is for one year.",
-        "owner": "skopacki@blackberry.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "RISK-36",
-        "title": "Violence",
-        "description": "Third party entering unsecure lobby",
-        "owner": "jmclaughlin@blackberry.com",
-        "status": "Draft",
-        "impact": 4,
-        "likelihood": 3,
-        "score": 12
-    },
-    {
-        "code": "RISK-37",
-        "title": "Phishing Attempt",
-        "description": "Somebody trying to do CO fraud",
-        "owner": "bernard@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 4,
-        "score": 12
-    },
-    {
-        "code": "MS-R001",
-        "title": "**Unauthorized access to network or data due to password policies & procedures",
-        "description": "Insufficient controls on endpoints where admin rights are allowed for everyone and continual scanning of the endpoints is not in place.",
-        "owner": "bernard@reciprocitylabs.com",
-        "status": "Remediate",
-        "impact": 4,
-        "likelihood": 4,
-        "score": 16
-    },
-    {
-        "code": "MS-R006",
-        "title": "**Cyber Espionage",
-        "description": "Cyber espionage by both malicious employee attempts, or by outside threat actors would....",
-        "owner": "bernard@reciprocitylabs.com",
-        "status": "Identified",
-        "impact": 4,
-        "likelihood": 2,
-        "score": 8
-    },
-    {
-        "code": "SCF-R-AC-1",
-        "title": "AC-1 Lack of accountability",
-        "description": "Lack of accountability",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Assessed",
-        "impact": 2,
-        "likelihood": 5,
-        "score": 10
-    },
-    {
-        "code": "SCF-R-AC-2",
-        "title": "AC-2 Improper assignment of privileged functions",
-        "description": "Improper assignment of privileged functions",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "In remediation",
-        "impact": 3,
-        "likelihood": 2,
-        "score": 6
-    },
-    {
-        "code": "SCF-R-AC-3",
-        "title": "AC-3 Privilege escalation",
-        "description": "Privilege escalation",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Accepted",
-        "impact": 3,
-        "likelihood": 2,
-        "score": 6
-    },
-    {
-        "code": "SCF-R-AC-4",
-        "title": "AC-4 Unauthorized access",
-        "description": "Unauthorized access",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Assessed",
-        "impact": 4,
-        "likelihood": 3,
-        "score": 12
-    },
-    {
-        "code": "SCF-R-AM-1",
-        "title": "AM-1 Lost, damaged or stolen asset(s)",
-        "description": "Lost, damaged or stolen asset(s)",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Accepted",
-        "impact": 2,
-        "likelihood": 3,
-        "score": 6
-    },
-    {
-        "code": "SCF-R-AM-2",
-        "title": "AM-2 Loss of integrity through unauthorized changes",
-        "description": "Loss of integrity through unauthorized changes",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Accepted",
-        "impact": 2,
-        "likelihood": 5,
-        "score": 10
-    },
-    {
-        "code": "SCF-R-BC-1",
-        "title": "BC-1 Business interruption",
-        "description": "Business interruption",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Accepted",
-        "impact": 7,
-        "likelihood": 7,
-        "score": 49
-    },
-    {
-        "code": "SCF-R-BC-2",
-        "title": "BC-2 Data loss / corruption",
-        "description": "Data loss / corruption",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "In remediation",
-        "impact": 4,
-        "likelihood": 2,
-        "score": 8
-    },
-    {
-        "code": "SCF-R-BC-3",
-        "title": "BC-3 Improper response to incidents",
-        "description": "Improper response to incidents",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Under assessment",
-        "impact": 7,
-        "likelihood": 5,
-        "score": 35
-    },
-    {
-        "code": "SCF-R-BC-4",
-        "title": "BC-4 Inability to investigate / prosecute incidents",
-        "description": "Inability to investigate / prosecute incidents",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Under assessment",
-        "impact": 5,
-        "likelihood": 4,
-        "score": 20
-    },
-    {
-        "code": "SCF-R-BC-5",
-        "title": "BC-5 Expense associated with managing a loss event",
-        "description": "Expense associated with managing a loss event",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 2,
-        "likelihood": 3,
-        "score": 6
-    },
-    {
-        "code": "SCF-R-BC-6",
-        "title": "BC-6 Reduction in productivity",
-        "description": "Reduction in productivity",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "SCF-R-EX-1",
-        "title": "EX-1 Loss of revenue",
-        "description": "Loss of revenue",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "SCF-R-EX-2",
-        "title": "EX-2 Cancelled contract",
-        "description": "Cancelled contract",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "SCF-R-EX-3",
-        "title": "EX-3 Diminished competitive advantage",
-        "description": "Diminished competitive advantage",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 5,
-        "likelihood": 4,
-        "score": 20
-    },
-    {
-        "code": "SCF-R-EX-4",
-        "title": "EX-4 Diminished reputation",
-        "description": "Diminished reputation",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 2,
-        "score": 6
-    },
-    {
-        "code": "SCF-R-EX-5",
-        "title": "EX-5 Fines and judgements",
-        "description": "Fines and judgements",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 5,
-        "likelihood": 3,
-        "score": 15
-    },
-    {
-        "code": "SCF-R-EX-6",
-        "title": "EX-6 Unmitigated vulnerabilities",
-        "description": "Unmitigated vulnerabilities",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 5,
-        "likelihood": 2,
-        "score": 10
-    },
-    {
-        "code": "SCF-R-GV-1",
-        "title": "GV-1 Inability to support business processes / missions",
-        "description": "Inability to support business processes / missions",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 5,
-        "likelihood": 4,
-        "score": 20
-    },
-    {
-        "code": "SCF-R-GV-2",
-        "title": "GV-2 Ineffective remediation actions",
-        "description": "Ineffective remediation actions",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "SCF-R-GV-3",
-        "title": "GV-3 Improper internal security / privacy practices",
-        "description": "Improper internal security / privacy practices",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 4,
-        "likelihood": 4,
-        "score": 16
-    },
-    {
-        "code": "SCF-R-GV-4",
-        "title": "GV-4 Improper third-party security / privacy practices",
-        "description": "Improper third-party security / privacy practices",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 4,
-        "likelihood": 1,
-        "score": 4
-    },
-    {
-        "code": "SCF-R-GV-5",
-        "title": "GV-5 Lack of accountability",
-        "description": "Lack of accountability",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 2,
-        "score": 6
-    },
-    {
-        "code": "SCF-R-GV-6",
-        "title": "GV-6 Gap or lapse in security / privacy controls coverage",
-        "description": "Gap or lapse in security / privacy controls coverage",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 2,
-        "score": 6
-    },
-    {
-        "code": "SCF-R-SA-1",
-        "title": "SA-1 Inability to maintain situational awareness",
-        "description": "Inability to maintain situational awareness",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 5,
-        "likelihood": 3,
-        "score": 15
-    },
-    {
-        "code": "SCF-R-SA-2",
-        "title": "SA-2 Lack of a security-minded workforce",
-        "description": "Lack of a security-minded workforce",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 4,
-        "likelihood": 3,
-        "score": 12
-    },
-    {
-        "code": "SCF-R-SA-3",
-        "title": "SA-3 Lack of oversight of internal security / privacy controls",
-        "description": "Lack of oversight of internal security / privacy controls",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 3,
-        "likelihood": 3,
-        "score": 9
-    },
-    {
-        "code": "SCF-R-SA-4",
-        "title": "SA-4 Lack of oversight of third-party security / privacy controls",
-        "description": "Lack of oversight of third-party security / privacy controls",
-        "owner": "david.driggers@reciprocitylabs.com",
-        "status": "Draft",
-        "impact": 4,
-        "likelihood": 3,
-        "score": 12
-    },
-    {
-        "code": "RISK-107",
-        "title": "Ransomware Attack",
-        "description": "Risk of losing files and possibly financial loss due to ransom, loss productivity, IT costs, legal fees, and network modifications.",
-        "owner": "bernard@reciprocitylabs.com",
-        "status": "Assessed",
-        "impact": 5,
-        "likelihood": 3,
-        "score": 15
-    }
+  {
+    "value": [
+      34,
+      null,
+      null
+    ],
+    "name": "Access Control",
+    "id": "branch-1",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          4,
+          3,
+          12
+        ],
+        "name": "Unauthorized access",
+        "id": "leaf-1"
+      },
+      {
+        "value": [
+          2,
+          5,
+          10
+        ],
+        "name": "Lack of accountability",
+        "id": "leaf-2"
+      },
+      {
+        "value": [
+          3,
+          2,
+          6
+        ],
+        "name": "Improper assignment of privileged functions",
+        "id": "leaf-3"
+      },
+      {
+        "value": [
+          3,
+          2,
+          6
+        ],
+        "name": "Privilege escalation",
+        "id": "leaf-4"
+      }
+    ]
+  },
+  {
+    "value": [
+      25,
+      null,
+      null
+    ],
+    "name": "Asset Management",
+    "id": "branch-2",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          2,
+          5,
+          10
+        ],
+        "name": "Loss of integrity through unauthorized changes",
+        "id": "leaf-5"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Stolen IT Assets",
+        "id": "leaf-6"
+      },
+      {
+        "value": [
+          2,
+          3,
+          6
+        ],
+        "name": "Lost, damaged or stolen asset(s)",
+        "id": "leaf-7"
+      }
+    ]
+  },
+  {
+    "value": [
+      162,
+      null,
+      null
+    ],
+    "name": "Business Continuity & Disaster Recovery",
+    "id": "branch-3",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          7,
+          7,
+          49
+        ],
+        "name": "Business interruption",
+        "id": "leaf-8"
+      },
+      {
+        "value": [
+          7,
+          5,
+          35
+        ],
+        "name": "Improper response to incidents",
+        "id": "leaf-9"
+      },
+      {
+        "value": [
+          5,
+          4,
+          20
+        ],
+        "name": "Disaster Recovery - Ops",
+        "id": "leaf-10"
+      },
+      {
+        "value": [
+          5,
+          4,
+          20
+        ],
+        "name": "Inability to investigate / prosecute incidents",
+        "id": "leaf-11"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Loss of Leadership",
+        "id": "leaf-12"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Reduction in productivity",
+        "id": "leaf-13"
+      },
+      {
+        "value": [
+          4,
+          2,
+          8
+        ],
+        "name": "Data loss / corruption",
+        "id": "leaf-14"
+      },
+      {
+        "value": [
+          2,
+          3,
+          6
+        ],
+        "name": "Natural Disaster",
+        "id": "leaf-15"
+      },
+      {
+        "value": [
+          2,
+          3,
+          6
+        ],
+        "name": "Expense associated with managing a loss event",
+        "id": "leaf-16"
+      }
+    ]
+  },
+  {
+    "value": [
+      78,
+      null,
+      null
+    ],
+    "name": "Business Risk",
+    "id": "branch-4",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          5,
+          4,
+          20
+        ],
+        "name": "Diminished competitive advantage",
+        "id": "leaf-17"
+      },
+      {
+        "value": [
+          5,
+          3,
+          15
+        ],
+        "name": "Fines and judgements",
+        "id": "leaf-18"
+      },
+      {
+        "value": [
+          5,
+          2,
+          10
+        ],
+        "name": "Unmitigated vulnerabilities",
+        "id": "leaf-19"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Reputational Harm",
+        "id": "leaf-20"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Loss of revenue",
+        "id": "leaf-21"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Cancelled contract",
+        "id": "leaf-22"
+      },
+      {
+        "value": [
+          3,
+          2,
+          6
+        ],
+        "name": "Diminished reputation",
+        "id": "leaf-23"
+      }
+    ]
+  },
+  {
+    "value": [
+      114,
+      null,
+      null
+    ],
+    "name": "Financial controls",
+    "id": "branch-5",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          4,
+          5,
+          20
+        ],
+        "name": "Unauthorized expenses are processed",
+        "id": "leaf-24"
+      },
+      {
+        "value": [
+          4,
+          5,
+          20
+        ],
+        "name": "Reimbursement payments issued for wrong amounts",
+        "id": "leaf-25"
+      },
+      {
+        "value": [
+          4,
+          4,
+          16
+        ],
+        "name": "Expenses are submitted in the correct period",
+        "id": "leaf-26"
+      },
+      {
+        "value": [
+          3,
+          4,
+          12
+        ],
+        "name": "Expenses are recorded in the incorrect GL code",
+        "id": "leaf-27"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Expenses are incurred for an invalid business reason",
+        "id": "leaf-28"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Expenses are recorded in Oracle in the correct period",
+        "id": "leaf-29"
+      },
+      {
+        "value": [
+          4,
+          2,
+          8
+        ],
+        "name": "Only authorized changes are made to expense data",
+        "id": "leaf-30"
+      },
+      {
+        "value": [
+          2,
+          4,
+          8
+        ],
+        "name": "Reimbursement payments are issued to employees without valid supporting documentation",
+        "id": "leaf-31"
+      },
+      {
+        "value": [
+          3,
+          2,
+          6
+        ],
+        "name": "Unauthorized Expensify accounts created",
+        "id": "leaf-32"
+      },
+      {
+        "value": [
+          2,
+          2,
+          4
+        ],
+        "name": "Unauthorized expenses are incurred",
+        "id": "leaf-33"
+      },
+      {
+        "value": [
+          2,
+          1,
+          2
+        ],
+        "name": "Unauthorized employee expenses are processed",
+        "id": "leaf-34"
+      }
+    ]
+  },
+  {
+    "value": [
+      20,
+      null,
+      null
+    ],
+    "name": "Human Resources Security",
+    "id": "branch-6",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          2,
+          5,
+          10
+        ],
+        "name": "Employee Pay Rate is Inaccurate (SOX Payroll Process)",
+        "id": "leaf-35"
+      },
+      {
+        "value": [
+          2,
+          3,
+          6
+        ],
+        "name": "Fictitious Employee",
+        "id": "leaf-36"
+      },
+      {
+        "value": [
+          4,
+          1,
+          4
+        ],
+        "name": "Unqualified Employees",
+        "id": "leaf-37"
+      }
+    ]
+  },
+  {
+    "value": [
+      6,
+      null,
+      null
+    ],
+    "name": "Incident Response",
+    "id": "branch-7",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          3,
+          2,
+          6
+        ],
+        "name": "Failure to use the logs",
+        "id": "leaf-38"
+      }
+    ]
+  },
+  {
+    "value": [
+      61,
+      null,
+      null
+    ],
+    "name": "Information Assurance ",
+    "id": "branch-8",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          7,
+          5,
+          35
+        ],
+        "name": "Data Breach",
+        "id": "leaf-39"
+      },
+      {
+        "value": [
+          5,
+          4,
+          20
+        ],
+        "name": "Backup Failures",
+        "id": "leaf-40"
+      },
+      {
+        "value": [
+          3,
+          2,
+          6
+        ],
+        "name": "Inadequate System Logging",
+        "id": "leaf-41"
+      }
+    ]
+  },
+  {
+    "value": [
+      81,
+      null,
+      null
+    ],
+    "name": "Network Security",
+    "id": "branch-9",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          7,
+          7,
+          49
+        ],
+        "name": "Unmaintained Firewall",
+        "id": "leaf-42"
+      },
+      {
+        "value": [
+          4,
+          4,
+          16
+        ],
+        "name": "Unauthorized access to network or data due to password policies & procedures",
+        "id": "leaf-43"
+      },
+      {
+        "value": [
+          4,
+          2,
+          8
+        ],
+        "name": "Unauthorized Network Access",
+        "id": "leaf-44"
+      },
+      {
+        "value": [
+          4,
+          2,
+          8
+        ],
+        "name": "Cyber Espionage",
+        "id": "leaf-45"
+      }
+    ]
+  },
+  {
+    "value": [
+      21,
+      null,
+      null
+    ],
+    "name": "Physical & Environmental Security ",
+    "id": "branch-10",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          4,
+          3,
+          12
+        ],
+        "name": "Intruder",
+        "id": "leaf-46"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Datacenter Fire",
+        "id": "leaf-47"
+      }
+    ]
+  },
+  {
+    "value": [
+      21,
+      null,
+      null
+    ],
+    "name": "Project & Resource Management",
+    "id": "branch-11",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          5,
+          3,
+          15
+        ],
+        "name": "Not adhering or tailoring to the predefined COMPASS standards",
+        "id": "leaf-48"
+      },
+      {
+        "value": [
+          3,
+          2,
+          6
+        ],
+        "name": "Failure to conduct a handoff meeting",
+        "id": "leaf-49"
+      }
+    ]
+  },
+  {
+    "value": [
+      70,
+      null,
+      null
+    ],
+    "name": "Security & Privacy Governance",
+    "id": "branch-12",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          5,
+          4,
+          20
+        ],
+        "name": "Inability to support business processes / missions",
+        "id": "leaf-50"
+      },
+      {
+        "value": [
+          4,
+          4,
+          16
+        ],
+        "name": "Improper internal security / privacy practices",
+        "id": "leaf-51"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Ineffective remediation actions",
+        "id": "leaf-52"
+      },
+      {
+        "value": [
+          3,
+          3,
+          9
+        ],
+        "name": "Lack of oversight of internal security / privacy controls",
+        "id": "leaf-53"
+      },
+      {
+        "value": [
+          3,
+          2,
+          6
+        ],
+        "name": "Lack of accountability",
+        "id": "leaf-54"
+      },
+      {
+        "value": [
+          3,
+          2,
+          6
+        ],
+        "name": "Gap or lapse in security / privacy controls coverage",
+        "id": "leaf-55"
+      },
+      {
+        "value": [
+          4,
+          1,
+          4
+        ],
+        "name": "Improper third-party security / privacy practices",
+        "id": "leaf-56"
+      }
+    ]
+  },
+  {
+    "value": [
+      96,
+      null,
+      null
+    ],
+    "name": "Security Awareness & Training ",
+    "id": "branch-13",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          5,
+          4,
+          20
+        ],
+        "name": "Phishing Campaign",
+        "id": "leaf-57"
+      },
+      {
+        "value": [
+          5,
+          3,
+          15
+        ],
+        "name": "Inability to maintain situational awareness",
+        "id": "leaf-58"
+      },
+      {
+        "value": [
+          5,
+          3,
+          15
+        ],
+        "name": "Ransomware Attack",
+        "id": "leaf-59"
+      },
+      {
+        "value": [
+          3,
+          4,
+          12
+        ],
+        "name": "Phishing Attempt",
+        "id": "leaf-60"
+      },
+      {
+        "value": [
+          4,
+          3,
+          12
+        ],
+        "name": "Lack of a security-minded workforce",
+        "id": "leaf-61"
+      },
+      {
+        "value": [
+          4,
+          3,
+          12
+        ],
+        "name": "Lack of oversight of third-party security / privacy controls",
+        "id": "leaf-62"
+      },
+      {
+        "value": [
+          5,
+          2,
+          10
+        ],
+        "name": "Social Engineering - Physical Access",
+        "id": "leaf-63"
+      }
+    ]
+  },
+  {
+    "value": [
+      16,
+      null,
+      null
+    ],
+    "name": "Third-Party Management ",
+    "id": "branch-14",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          4,
+          4,
+          16
+        ],
+        "name": "Loss of Key Vendor",
+        "id": "leaf-64"
+      }
+    ]
+  },
+  {
+    "value": [
+      15,
+      null,
+      null
+    ],
+    "name": "Vulnerability & Patch Management ",
+    "id": "branch-15",
+    "discretion": null,
+    "children": [
+      {
+        "value": [
+          5,
+          3,
+          15
+        ],
+        "name": "Unsupported Operating Systems",
+        "id": "leaf-65"
+      }
+    ]
+  }
 ]
