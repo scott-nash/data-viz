@@ -1,375 +1,288 @@
 {
-  "name": "Risk",
-  "children": [
-    {
-      "name": "Access Control",
-      "children": [
-        {
-          "name": "Unauthorized access",
-          "category": "Access Control",
-          "value": "12"
-        },
-        {
-          "name": "Lack of accountability",
-          "category": "Access Control",
-          "value": "10"
-        },
-        {
-          "name": "Improper assignment of privileged functions",
-          "category": "Access Control",
-          "value": "6"
-        },
-        {
-          "name": "Privilege escalation",
-          "category": "Access Control",
-          "value": "6"
-        }
-      ]
-    },
-    {
-      "name": "Asset Management",
-      "children": [
-        {
-          "name": "Loss of integrity through unauthorized changes",
-          "category": "Asset Management",
-          "value": "10"
-        },
-        {
-          "name": "Stolen IT Assets",
-          "category": "Asset Management",
-          "value": "9"
-        },
-        {
-          "name": "Lost, damaged or stolen asset(s)",
-          "category": "Asset Management",
-          "value": "6"
-        }
-      ]
-    },
-    {
-      "name": "Business Continuity & Disaster Recovery",
-      "children": [
-        {
-          "name": "Business interruption",
-          "category": "Business Continuity & Disaster Recovery",
-          "value": "49"
-        },
-        {
-          "name": "Improper response to incidents",
-          "category": "Business Continuity & Disaster Recovery",
-          "value": "35"
-        },
-        {
-          "name": "Disaster Recovery - Ops",
-          "category": "Business Continuity & Disaster Recovery",
-          "value": "20"
-        },
-        {
-          "name": "Inability to investigate / prosecute incidents",
-          "category": "Business Continuity & Disaster Recovery",
-          "value": "20"
-        },
-        {
-          "name": "Loss of Leadership",
-          "category": "Business Continuity & Disaster Recovery",
-          "value": "9"
-        },
-        {
-          "name": "Reduction in productivity",
-          "category": "Business Continuity & Disaster Recovery",
-          "value": "9"
-        },
-        {
-          "name": "Data loss / corruption",
-          "category": "Business Continuity & Disaster Recovery",
-          "value": "8"
-        },
-        {
-          "name": "Natural Disaster",
-          "category": "Business Continuity & Disaster Recovery",
-          "value": "6"
-        },
-        {
-          "name": "Expense associated with managing a loss event",
-          "category": "Business Continuity & Disaster Recovery",
-          "value": "6"
-        }
-      ]
-    },
-    {
-      "name": "Business Risk",
-      "children": [
-        {
-          "name": "Diminished competitive advantage",
-          "category": "Business Risk",
-          "value": "20"
-        },
-        {
-          "name": "Fines and judgements",
-          "category": "Business Risk",
-          "value": "15"
-        },
-        {
-          "name": "Unmitigated vulnerabilities",
-          "category": "Business Risk",
-          "value": "10"
-        },
-        {
-          "name": "Reputational Harm",
-          "category": "Business Risk",
-          "value": "9"
-        },
-        {
-          "name": "Loss of revenue",
-          "category": "Business Risk",
-          "value": "9"
-        },
-        {
-          "name": "Cancelled contract",
-          "category": "Business Risk",
-          "value": "9"
-        },
-        {
-          "name": "Diminished reputation",
-          "category": "Business Risk",
-          "value": "6"
-        }
-      ]
-    },
-    {
-      "name": "Financial controls",
-      "children": [
-        {
-          "name": "Unauthorized expenses are processed",
-          "category": "Financial controls",
-          "value": "20"
-        },
-        {
-          "name": "Reimbursement payments issued for wrong amounts",
-          "category": "Financial controls",
-          "value": "20"
-        },
-        {
-          "name": "Expenses are submitted in the correct period",
-          "category": "Financial controls",
-          "value": "16"
-        },
-        {
-          "name": "Expenses are recorded in the incorrect GL code",
-          "category": "Financial controls",
-          "value": "12"
-        },
-        {
-          "name": "Expenses are incurred for an invalid business reason",
-          "category": "Financial controls",
-          "value": "9"
-        },
-        {
-          "name": "Expenses are recorded in Oracle in the correct period",
-          "category": "Financial controls",
-          "value": "9"
-        },
-        {
-          "name": "Only authorized changes are made to expense data",
-          "category": "Financial controls",
-          "value": "8"
-        },
-        {
-          "name": "Reimbursement payments are issued to employees without valid supporting documentation",
-          "category": "Financial controls",
-          "value": "8"
-        },
-        {
-          "name": "Unauthorized Expensify accounts created",
-          "category": "Financial controls",
-          "value": "6"
-        },
-        {
-          "name": "Unauthorized expenses are incurred",
-          "category": "Financial controls",
-          "value": "4"
-        },
-        {
-          "name": "Unauthorized employee expenses are processed",
-          "category": "Financial controls",
-          "value": "2"
-        }
-      ]
-    },
-    {
-      "name": "Human Resources Security",
-      "children": [
-        {
-          "name": "Employee Pay Rate is Inaccurate (SOX Payroll Process)",
-          "category": "Human Resources Security",
-          "value": "10"
-        },
-        {
-          "name": "Fictitious Employee",
-          "category": "Human Resources Security",
-          "value": "6"
-        },
-        {
-          "name": "Unqualified Employees",
-          "category": "Human Resources Security",
-          "value": "4"
-        }
-      ]
-    },
-    {
-      "name": "Information Assurance ",
-      "children": [
-        {
-          "name": "Data Breach",
-          "category": "Information Assurance ",
-          "value": "35"
-        },
-        {
-          "name": "Backup Failures",
-          "category": "Information Assurance ",
-          "value": "20"
-        },
-        {
-          "name": "Inadequate System Logging",
-          "category": "Information Assurance ",
-          "value": "6"
-        }
-      ]
-    },
-    {
-      "name": "Network Security",
-      "children": [
-        {
-          "name": "Unmaintained Firewall",
-          "category": "Network Security",
-          "value": "49"
-        },
-        {
-          "name": "Unauthorized access to network or data due to password policies & procedures",
-          "category": "Network Security",
-          "value": "16"
-        },
-        {
-          "name": "Unauthorized Network Access",
-          "category": "Network Security",
-          "value": "8"
-        },
-        {
-          "name": "Cyber Espionage",
-          "category": "Network Security",
-          "value": "8"
-        }
-      ]
-    },
-    {
-      "name": "Physical & Environmental Security ",
-      "children": [
-        {
-          "name": "Intruder",
-          "category": "Physical & Environmental Security ",
-          "value": "12"
-        },
-        {
-          "name": "Datacenter Fire",
-          "category": "Physical & Environmental Security ",
-          "value": "9"
-        }
-      ]
-    },
-    {
-      "name": "Project & Resource Management",
-      "children": [
-        {
-          "name": "Not adhering or tailoring to the predefined COMPASS standards",
-          "category": "Project & Resource Management",
-          "value": "15"
-        },
-        {
-          "name": "Failure to conduct a handoff meeting",
-          "category": "Project & Resource Management",
-          "value": "6"
-        }
-      ]
-    },
-    {
-      "name": "Security & Privacy Governance",
-      "children": [
-        {
-          "name": "Inability to support business processes / missions",
-          "category": "Security & Privacy Governance",
-          "value": "20"
-        },
-        {
-          "name": "Improper internal security / privacy practices",
-          "category": "Security & Privacy Governance",
-          "value": "16"
-        },
-        {
-          "name": "Ineffective remediation actions",
-          "category": "Security & Privacy Governance",
-          "value": "9"
-        },
-        {
-          "name": "Lack of oversight of internal security / privacy controls",
-          "category": "Security & Privacy Governance",
-          "value": "9"
-        },
-        {
-          "name": "Lack of accountability",
-          "category": "Security & Privacy Governance",
-          "value": "6"
-        },
-        {
-          "name": "Gap or lapse in security / privacy controls coverage",
-          "category": "Security & Privacy Governance",
-          "value": "6"
-        },
-        {
-          "name": "Improper third-party security / privacy practices",
-          "category": "Security & Privacy Governance",
-          "value": "4"
-        }
-      ]
-    },
-    {
-      "name": "Security Awareness & Training ",
-      "children": [
-        {
-          "name": "Phishing Campaign",
-          "category": "Security Awareness & Training ",
-          "value": "20"
-        },
-        {
-          "name": "Inability to maintain situational awareness",
-          "category": "Security Awareness & Training ",
-          "value": "15"
-        },
-        {
-          "name": "Ransomware Attack",
-          "category": "Security Awareness & Training ",
-          "value": "15"
-        },
-        {
-          "name": "Phishing Attempt",
-          "category": "Security Awareness & Training ",
-          "value": "12"
-        },
-        {
-          "name": "Lack of a security-minded workforce",
-          "category": "Security Awareness & Training ",
-          "value": "12"
-        },
-        {
-          "name": "Lack of oversight of third-party security / privacy controls",
-          "category": "Security Awareness & Training ",
-          "value": "12"
-        },
-        {
-          "name": "Social Engineering - Physical Access",
-          "category": "Security Awareness & Training ",
-          "value": "10"
-        }
-      ]
-    }
-  ]
+"name": "Risk",
+"children": [{
+"name": "Access Control",
+"children": [{
+"name": "Unauthorized access",
+"category": "Access Control",
+"value": "12"
+}, {
+"name": "Lack of accountability",
+"category": "Access Control",
+"value": "10"
+}, {
+"name": "Improper assignment of privileged functions",
+"category": "Access Control",
+"value": "6"
+}, {
+"name": "Privilege escalation",
+"category": "Access Control",
+"value": "6"
+}]
+}, {
+"name": "Asset Management",
+"children": [{
+"name": "Loss of integrity through unauthorized changes",
+"category": "Asset Management",
+"value": "10"
+}, {
+"name": "Stolen IT Assets",
+"category": "Asset Management",
+"value": "9"
+}, {
+"name": "Lost, damaged or stolen asset(s)",
+"category": "Asset Management",
+"value": "6"
+}]
+}, {
+"name": "Business Continuity & Disaster Recovery",
+"children": [{
+"name": "Business interruption",
+"category": "Business Continuity & Disaster Recovery",
+"value": "49"
+}, {
+"name": "Improper response to incidents",
+"category": "Business Continuity & Disaster Recovery",
+"value": "35"
+}, {
+"name": "Disaster Recovery - Ops",
+"category": "Business Continuity & Disaster Recovery",
+"value": "20"
+}, {
+"name": "Inability to investigate / prosecute incidents",
+"category": "Business Continuity & Disaster Recovery",
+"value": "20"
+}, {
+"name": "Loss of Leadership",
+"category": "Business Continuity & Disaster Recovery",
+"value": "9"
+}, {
+"name": "Reduction in productivity",
+"category": "Business Continuity & Disaster Recovery",
+"value": "9"
+}, {
+"name": "Data loss / corruption",
+"category": "Business Continuity & Disaster Recovery",
+"value": "8"
+}, {
+"name": "Natural Disaster",
+"category": "Business Continuity & Disaster Recovery",
+"value": "6"
+}, {
+"name": "Expense associated with managing a loss event",
+"category": "Business Continuity & Disaster Recovery",
+"value": "6"
+}]
+}, {
+"name": "Business Risk",
+"children": [{
+"name": "Diminished competitive advantage",
+"category": "Business Risk",
+"value": "20"
+}, {
+"name": "Fines and judgements",
+"category": "Business Risk",
+"value": "15"
+}, {
+"name": "Unmitigated vulnerabilities",
+"category": "Business Risk",
+"value": "10"
+}, {
+"name": "Reputational Harm",
+"category": "Business Risk",
+"value": "9"
+}, {
+"name": "Loss of revenue",
+"category": "Business Risk",
+"value": "9"
+}, {
+"name": "Cancelled contract",
+"category": "Business Risk",
+"value": "9"
+}, {
+"name": "Diminished reputation",
+"category": "Business Risk",
+"value": "6"
+}]
+}, {
+"name": "Financial controls",
+"children": [{
+"name": "Unauthorized expenses are processed",
+"category": "Financial controls",
+"value": "20"
+}, {
+"name": "Reimbursement payments issued for wrong amounts",
+"category": "Financial controls",
+"value": "20"
+}, {
+"name": "Expenses are submitted in the correct period",
+"category": "Financial controls",
+"value": "16"
+}, {
+"name": "Expenses are recorded in the incorrect GL code",
+"category": "Financial controls",
+"value": "12"
+}, {
+"name": "Expenses are incurred for an invalid business reason",
+"category": "Financial controls",
+"value": "9"
+}, {
+"name": "Expenses are recorded in Oracle in the correct period",
+"category": "Financial controls",
+"value": "9"
+}, {
+"name": "Only authorized changes are made to expense data",
+"category": "Financial controls",
+"value": "8"
+}, {
+"name": "Reimbursement payments are issued to employees without valid supporting documentation",
+"category": "Financial controls",
+"value": "8"
+}, {
+"name": "Unauthorized Expensify accounts created",
+"category": "Financial controls",
+"value": "6"
+}, {
+"name": "Unauthorized expenses are incurred",
+"category": "Financial controls",
+"value": "4"
+}, {
+"name": "Unauthorized employee expenses are processed",
+"category": "Financial controls",
+"value": "2"
+}]
+}, {
+"name": "Human Resources Security",
+"children": [{
+"name": "Employee Pay Rate is Inaccurate (SOX Payroll Process)",
+"category": "Human Resources Security",
+"value": "10"
+}, {
+"name": "Fictitious Employee",
+"category": "Human Resources Security",
+"value": "6"
+}, {
+"name": "Unqualified Employees",
+"category": "Human Resources Security",
+"value": "4"
+}]
+}, {
+"name": "Information Assurance ",
+"children": [{
+"name": "Data Breach",
+"category": "Information Assurance ",
+"value": "35"
+}, {
+"name": "Backup Failures",
+"category": "Information Assurance ",
+"value": "20"
+}, {
+"name": "Inadequate System Logging",
+"category": "Information Assurance ",
+"value": "6"
+}]
+}, {
+"name": "Network Security",
+"children": [{
+"name": "Unmaintained Firewall",
+"category": "Network Security",
+"value": "49"
+}, {
+"name": "Unauthorized access to network or data due to password policies & procedures",
+"category": "Network Security",
+"value": "16"
+}, {
+"name": "Unauthorized Network Access",
+"category": "Network Security",
+"value": "8"
+}, {
+"name": "Cyber Espionage",
+"category": "Network Security",
+"value": "8"
+}]
+}, {
+"name": "Physical & Environmental Security ",
+"children": [{
+"name": "Intruder",
+"category": "Physical & Environmental Security ",
+"value": "12"
+}, {
+"name": "Datacenter Fire",
+"category": "Physical & Environmental Security ",
+"value": "9"
+}]
+}, {
+"name": "Project & Resource Management",
+"children": [{
+"name": "Not adhering or tailoring to the predefined COMPASS standards",
+"category": "Project & Resource Management",
+"value": "15"
+}, {
+"name": "Failure to conduct a handoff meeting",
+"category": "Project & Resource Management",
+"value": "6"
+}]
+}, {
+"name": "Security & Privacy Governance",
+"children": [{
+"name": "Inability to support business processes / missions",
+"category": "Security & Privacy Governance",
+"value": "20"
+}, {
+"name": "Improper internal security / privacy practices",
+"category": "Security & Privacy Governance",
+"value": "16"
+}, {
+"name": "Ineffective remediation actions",
+"category": "Security & Privacy Governance",
+"value": "9"
+}, {
+"name": "Lack of oversight of internal security / privacy controls",
+"category": "Security & Privacy Governance",
+"value": "9"
+}, {
+"name": "Lack of accountability",
+"category": "Security & Privacy Governance",
+"value": "6"
+}, {
+"name": "Gap or lapse in security / privacy controls coverage",
+"category": "Security & Privacy Governance",
+"value": "6"
+}, {
+"name": "Improper third-party security / privacy practices",
+"category": "Security & Privacy Governance",
+"value": "4"
+}]
+}, {
+"name": "Security Awareness & Training ",
+"children": [{
+"name": "Phishing Campaign",
+"category": "Security Awareness & Training ",
+"value": "20"
+}, {
+"name": "Inability to maintain situational awareness",
+"category": "Security Awareness & Training ",
+"value": "15"
+}, {
+"name": "Ransomware Attack",
+"category": "Security Awareness & Training ",
+"value": "15"
+}, {
+"name": "Phishing Attempt",
+"category": "Security Awareness & Training ",
+"value": "12"
+}, {
+"name": "Lack of a security-minded workforce",
+"category": "Security Awareness & Training ",
+"value": "12"
+}, {
+"name": "Lack of oversight of third-party security / privacy controls",
+"category": "Security Awareness & Training ",
+"value": "12"
+}, {
+"name": "Social Engineering - Physical Access",
+"category": "Security Awareness & Training ",
+"value": "10"
+}]
+}]
 }
